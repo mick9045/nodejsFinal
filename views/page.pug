@@ -1,0 +1,16 @@
+extends layout
+
+block styles
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+block header
+    ul.nav
+        li.nav
+            a.active(href= '/')= 'Home'
+        li.nav
+            a.active(href= '/catalog')= 'Catalog'
+        li.nav
+            a.active(href= '/gallery')= 'Gallery'
+        li.nav
+            a.active(href= '/test')= 'Test'
+

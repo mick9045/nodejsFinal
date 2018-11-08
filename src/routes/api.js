@@ -11,7 +11,7 @@ var carts = db.collection("carts");
 
 /* GET home page. */
 router.get('/', function(req: express$Request, res: express$Response, next: express$NextFunction) {
-
+	
 });
 
 router.route('/goods')

@@ -6,12 +6,12 @@ var coinfig = require('../../appConfig.json');
 
 const getDb = require('../database/db').getDb;
 var db = getDb('store');
-var products = db.Collection("products");
-var carts = db.Collection("carts");
+var products = db.collection("products");
+var carts = db.collection("carts");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-
+	
 });
 
 router.route('/goods')

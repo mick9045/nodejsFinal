@@ -1,11 +1,10 @@
-h1 {
-	color: #ff0000;
-}
-
 .cont {
-	width: 300px;
-	margin: 0 auto;}
+    width: 300px;
+    margin: 0 auto;}
 
+.content {
+    max-width: 960px;
+}
 
 ul.nav {
     list-style-type: none;
