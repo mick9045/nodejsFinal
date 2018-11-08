@@ -9,6 +9,7 @@ var config = require('./appConfig.json');
 var indexRouter = require('./dst/routes/index');
 var usersRouter = require('./dst/routes/users');
 var apiRouter = require('./dst/routes/api');
+var initDb = require('../src/public/database/db').initDb;
 
 var app = express();
 
@@ -23,10 +24,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/api', apiRouter);
+initDb(function (error) {
+	if (error) {
+		console.log("ebal vas v rot");
+		throw error;
+	}	
+	app.use('/', indexRouter);
+	app.use('/users', usersRouter);
+	app.use('/api', apiRouter);
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
