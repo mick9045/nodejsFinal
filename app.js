@@ -3,13 +3,13 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var fileUpload = require('fileUpload');
 
 var config = require('./appConfig.json');
 
 var indexRouter = require('./dst/routes/index');
 var usersRouter = require('./dst/routes/users');
 var apiRouter = require('./dst/routes/api');
-var initDb = require('./dst/database/db').initDb;
 
 var app = express();
 
@@ -23,6 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(fileUpload());
 
 
 app.use('/', indexRouter);
