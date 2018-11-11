@@ -1,6 +1,6 @@
-// @flow
 var express = require('express');
 var jwt = require('jsonwebtoken');
+var path = require('path');
 var router = express.Router();
 var coinfig = require('../../appConfig.json');
 
@@ -44,7 +44,21 @@ router.route('/authenticate')
 
 router.route('/products')
 	.post(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
-		console.log(req.files);
+		let image = req.files.image;
+		let imagePath = 'public/images/' + image.name;
+		console.log(imagePath);
+		image.mv(imagePath, function(err) {
+			console.log("can't move image: " + err);
+		});
+		let product = await products.insertOne({
+			name: req.body.name,
+			price: req.body.price,
+			defenition: req.body.defenition,
+			image: imagePath
+		});
+		res.json({
+
+		});
 	})
 
 module.exports = router;
