@@ -1,4 +1,4 @@
-function AuthenicationController() {
+var auth = new (function AuthenicationController() {
 	this.getToken = function(callbackResult) {
 		if (callbackResult)
 		{
@@ -31,4 +31,4 @@ function AuthenicationController() {
 		}).done(callbackResult)
 		.fail(error);
 	}
-}
+})();

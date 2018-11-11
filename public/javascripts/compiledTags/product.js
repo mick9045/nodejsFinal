@@ -18,18 +18,6 @@ var OptsMixin = {
 			}
 		}
 
-<product>
-	<div class="card" style="width: 400px">
-		<img class='card-img-top' src='{ opts.image }' alt='Card Image'>
-		<div class='card-body'>
-			<h4 class='card-title'>{ opts.name }</h4>
-			<p class='card-text'>{ opts.defenition}</p>
-			<h1 class="badge badge-warning">{ opt.price }</h1>
-			<button class='btn btn-primary'>Buy</button>
-		</div>
-	</div>
-	<script>
+riot.tag2('product', '<div class="card" style="width: 400px"> <img class="card-img-top" riot-src="{opts.image}" alt="Card Image"> <div class="card-body"> <h4 class="card-title">{opts.name}</h4> <p class="card-text">{opts.defenition}</p> <h1 class="badge badge-warning">{opt.price}</h1> <button class="btn btn-primary">Buy</button> </div> </div>', '', '', function(opts) {
 		this.mixin(OptsMixin);
-	</script>
-	
-</product>
+});

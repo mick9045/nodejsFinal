@@ -10,5 +10,9 @@ router.get('/catalog', function(req : express$Request, res : express$Responce, n
 	res.render('catalog');
 });
 
+router.get('/addProduct', function(req : express$Request, res : express$Responce, next: express$NextFunction) {
+	res.render('addProduct');
+});
+
 
 module.exports = router;

@@ -10,8 +10,9 @@
   "build_systems": [
   	{
   		"name": "Flow",
-  		"shell_cmd": "flow-remove-types -a -p --out-dir dst/ src/",
-		"working_dir": "${project_path}"	
+  		"shell_cmd": "flow-remove-types -a -p --out-dir dst/ src/ & riot public/tags public/javascripts/compiledTags"
+      ,
+  		"working_dir": "${project_path}"	
   	}
   ]
 }

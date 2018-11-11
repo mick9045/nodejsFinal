@@ -42,6 +42,9 @@ router.route('/authenticate')
 		//let token = jwt.
 	})
 
-
+router.route('/products')
+	.post(async function(req, res, next) {
+		console.log(req.files);
+	})
 
 module.exports = router;
