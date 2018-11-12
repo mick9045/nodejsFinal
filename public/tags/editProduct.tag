@@ -27,14 +27,19 @@
         </form>
     </div>
     <script>
+        var token;
+
+        auth.getToken(function (result) {
+            token = result.token;
+        });
+
         this.commit = function(e) {
             e.preventDefault();
             var data = new FormData();
             var imageProperty = this.refs.image.files[0];
-            console.log(imageProperty);
-            data.append("name", this.name);
-            data.append("price", this.price);
-            data.append("defenition", this.defenition);
+            data.append("name", this.refs.name.value);
+            data.append("price", this.refs.price.value);
+            data.append("defenition", this.refs.defenition.value);
             data.append("image", imageProperty);
 
             $.ajax({
@@ -43,9 +48,14 @@
                 data: data,
                 contentType: false,
                 cache: false,
-                processData: false
+                processData: false,
+                headers: {
+                    'x-access-token' : token
+                }
             }).done(function (result) {
-                alert("ura");
+                if (result.success) {
+                    window.location.href = '/catalog';
+                }
             }).fail(function (err) {
                 alert("failed to load image");
             });

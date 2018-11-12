@@ -6,12 +6,13 @@ var auth = new (function AuthenicationController() {
 
 			if (auth === null) {
 				RequestAuthenication(function (result) {
-					console.log("shit");
 					auth = JSON.stringify({
 						token: result.token
 					});
 					window.localStorage.setItem("auth", auth)
-					callbackResult(auth);
+					callbackResult({
+						token: result.token
+					});
 				}, function (jqXHR, textStatus) {
 					alert("failed to connect to database");
 					console.log("fail");

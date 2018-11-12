@@ -2,3 +2,8 @@ extends page.pug
 
 block append scripts
 	script(src='/javascripts/controllers/catalog.js')
+	script(src='/javascripts/compiledTags/catalog.js')
+	script(src='/javascripts/compiledTags/product.js')
+
+block append content
+	catalog

@@ -16,7 +16,8 @@
     "jsonwebtoken": "^8.3.0",
     "mongodb": "^3.1.8",
     "morgan": "~1.9.0",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "unique-filename": "^1.1.1"
   },
   "devDependencies": {
     "flow-bin": "^0.85.0"

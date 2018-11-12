@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"btn-e",
+				"btn-danger \tBootstrap 4 Class"
+			],
+			[
+				"uni",
+				"uniqueFileName"
+			],
+			[
+				"form-",
+				"form-group \tBootstrap 4 Class"
+			],
+			[
+				"justify-content",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
 				"stign",
 				"stringify\t(value: any, replacer?: ?(((key: string, value: any) => any) | Array<any>), space?: (string | number)) => string"
 			],
@@ -185,7 +201,16 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 1313,
+				"buffer_size": 1346,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/routes/api.js",
+			"settings":
+			{
+				"buffer_size": 2883,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -194,9 +219,17 @@
 			"file": "views/catalog.pug",
 			"settings":
 			{
-				"buffer_size": 89,
+				"buffer_size": 224,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/error.pug",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -204,6 +237,15 @@
 			"settings":
 			{
 				"buffer_size": 203,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 696,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -221,16 +263,8 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 505,
+				"buffer_size": 538,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/routes/api.js",
-			"settings":
-			{
-				"buffer_size": 1117,
 				"line_ending": "Unix"
 			}
 		},
@@ -238,7 +272,7 @@
 			"file": "public/javascripts/controllers/catalog.js",
 			"settings":
 			{
-				"buffer_size": 61,
+				"buffer_size": 20,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -272,7 +306,7 @@
 			"file": "public/javascripts/controllers/authenicationController.js",
 			"settings":
 			{
-				"buffer_size": 788,
+				"buffer_size": 762,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -299,16 +333,34 @@
 			"file": "views/page.pug",
 			"settings":
 			{
-				"buffer_size": 1727,
+				"buffer_size": 1793,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/modifyProduct.pug",
+			"file": "views/addProduct.pug",
 			"settings":
 			{
-				"buffer_size": 12,
+				"buffer_size": 126,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/cart.pug",
+			"settings":
+			{
+				"buffer_size": 112,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/tags/cart.tag",
+			"settings":
+			{
+				"buffer_size": 451,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -317,16 +369,41 @@
 			"file": "public/tags/catalog.tag",
 			"settings":
 			{
-				"buffer_size": 42,
+				"buffer_size": 790,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "node_modules/express/lib/view.js",
+			"settings":
+			{
+				"buffer_size": 3326,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "public/tags/editProduct.tag",
 			"settings":
 			{
-				"buffer_size": 422,
+				"buffer_size": 2630,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/compiledTags/catalog.js",
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mick/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 84,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -335,7 +412,7 @@
 			"file": "public/javascripts/compiledTags/product.js",
 			"settings":
 			{
-				"buffer_size": 913,
+				"buffer_size": 1187,
 				"line_ending": "Unix"
 			}
 		},
@@ -343,9 +420,17 @@
 			"file": "public/tags/product.tag",
 			"settings":
 			{
-				"buffer_size": 909,
+				"buffer_size": 1225,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/compiledTags/editProduct.js",
+			"settings":
+			{
+				"buffer_size": 2254,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -370,7 +455,7 @@
 			"file": "dst/routes/index.js",
 			"settings":
 			{
-				"buffer_size": 285,
+				"buffer_size": 443,
 				"line_ending": "Unix"
 			}
 		},
@@ -404,7 +489,7 @@
 			"file": "final.sublime-project",
 			"settings":
 			{
-				"buffer_size": 303,
+				"buffer_size": 363,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -413,7 +498,7 @@
 			"file": "dst/routes/api.js",
 			"settings":
 			{
-				"buffer_size": 941,
+				"buffer_size": 2598,
 				"line_ending": "Unix"
 			}
 		},
@@ -509,6 +594,14 @@
 			[
 				"set syntax riot",
 				"Set Syntax: Riot(HTML)"
+			],
+			[
+				"conert to s",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"build ",
+				"Build With: Flow"
 			],
 			[
 				"install ",
@@ -639,10 +732,6 @@
 				"Build With: BabelBuild"
 			],
 			[
-				"build ",
-				"Build With: BabelBuild"
-			],
-			[
 				"ub",
 				"Build: New Build System"
 			],
@@ -767,14 +856,16 @@
 	"expanded_folders":
 	[
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final",
-		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/src",
-		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/src/routes",
+		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public",
+		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/javascripts",
+		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/javascripts/controllers",
+		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/tags",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/views"
 	],
 	"file_history":
 	[
-		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/src/routes/index.js",
 		"/C/Users/mick/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/src/routes/index.js",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/tags/catalog.tag",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/javascripts/catalog.js",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/javascripts/controllers/catalogController.js",
@@ -843,7 +934,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -857,6 +948,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"config.jwt.secret",
 			"sign"
 		],
 		"highlight": true,
@@ -875,7 +967,7 @@
 	"groups":
 	[
 		{
-			"selected": 15,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -923,7 +1015,7 @@
 						"translation.y": 1134.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
@@ -966,7 +1058,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -975,15 +1067,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1313,
+						"buffer_size": 1346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								1324,
+								1324
 							]
 						],
 						"settings":
@@ -1004,40 +1096,44 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 44
+								"xpos": 0
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "views/catalog.pug",
+					"file": "src/routes/api.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 89,
+						"buffer_size": 2883,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								511,
+								511
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"highlight_line": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
 								"mode": "mode_normal",
@@ -1048,18 +1144,103 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 52
+								"xpos": 8
+							},
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/catalog.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_visual",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 4
 							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
+					"file": "views/error.pug",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "src/routes/users.js",
 					"semi_transient": false,
 					"settings":
@@ -1097,11 +1278,55 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
+					"file": "src/routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								668,
+								668
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 16
+							},
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "appConfig.json",
 					"semi_transient": false,
 					"settings":
@@ -1142,16 +1367,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 505,
+						"buffer_size": 538,
 						"regions":
 						{
 						},
@@ -1187,66 +1412,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "src/routes/api.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "public/javascripts/controllers/catalog.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61,
+						"buffer_size": 20,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								51,
-								51
+								20,
+								20
 							]
 						],
 						"settings":
@@ -1273,11 +1456,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "public/javascripts/controllers/cart.js",
 					"semi_transient": false,
 					"settings":
@@ -1289,8 +1472,8 @@
 						"selection":
 						[
 							[
-								19,
-								19
+								21,
+								21
 							]
 						],
 						"settings":
@@ -1310,7 +1493,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 3
+								"xpos": 0
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1318,11 +1501,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "public/javascripts/controllers/goodCreation.js",
 					"semi_transient": false,
 					"settings":
@@ -1362,11 +1545,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1390,24 +1573,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "public/javascripts/controllers/authenicationController.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 788,
+						"buffer_size": 762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								15
+								538,
+								538
 							]
 						],
 						"settings":
@@ -1430,7 +1613,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 15
+								"xpos": 20
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1438,11 +1621,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "public/javascripts/controllers/cartController.js",
 					"semi_transient": false,
 					"settings":
@@ -1483,7 +1666,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "views/layout.pug",
 					"semi_transient": false,
 					"settings":
@@ -1526,24 +1709,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "views/page.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1727,
+						"buffer_size": 1793,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1140,
-								1140
+								1790,
+								1790
 							]
 						],
 						"settings":
@@ -1567,7 +1750,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 29
+								"xpos": 34
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1575,24 +1758,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "views/modifyProduct.pug",
+					"buffer": 18,
+					"file": "views/addProduct.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12,
+						"buffer_size": 126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
+								91,
+								91
 							]
 						],
 						"settings":
@@ -1611,23 +1794,23 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 11
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "public/tags/catalog.tag",
+					"buffer": 19,
+					"file": "views/cart.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42,
+						"buffer_size": 112,
 						"regions":
 						{
 						},
@@ -1636,6 +1819,93 @@
 							[
 								12,
 								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 8
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "public/tags/cart.tag",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Riot Tag/syntax/TAG.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 6
+							},
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "public/tags/catalog.tag",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
 							]
 						],
 						"settings":
@@ -1657,7 +1927,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 4
+								"xpos": 28
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1665,33 +1935,79 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
-					"file": "public/tags/editProduct.tag",
+					"buffer": 22,
+					"file": "node_modules/express/lib/view.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 422,
+						"buffer_size": 3326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "public/tags/editProduct.tag",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1509,
+								1509
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
 							"syntax": "Packages/Riot Tag/syntax/TAG.tmLanguage",
-							"translate_tabs_to_spaces": false,
+							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
 								"mode": "mode_normal",
@@ -1710,16 +2026,102 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 24,
+					"file": "public/javascripts/compiledTags/catalog.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 26
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/mick/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 48
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
 					"file": "public/javascripts/compiledTags/product.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 913,
+						"buffer_size": 1187,
 						"regions":
 						{
 						},
@@ -1752,24 +2154,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 27,
 					"file": "public/tags/product.tag",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 909,
+						"buffer_size": 1225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								861,
-								861
+								1212,
+								1212
 							]
 						],
 						"settings":
@@ -1790,7 +2192,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 4
+								"xpos": 36
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1798,11 +2200,56 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 28,
+					"file": "public/javascripts/compiledTags/editProduct.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							},
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
 					"file": "public/stylesheets/style.css",
 					"semi_transient": false,
 					"settings":
@@ -1825,10 +2272,10 @@
 							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
-								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_glue_until_normal_mode": false,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_insert",
+								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
@@ -1843,11 +2290,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 30,
 					"file": "views/index.pug",
 					"semi_transient": false,
 					"settings":
@@ -1889,16 +2336,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 31,
 					"file": "dst/routes/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 443,
 						"regions":
 						{
 						},
@@ -1933,11 +2380,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 32,
 					"file": "/C/Users/mick/Desktop/result.json",
 					"semi_transient": false,
 					"settings":
@@ -1976,11 +2423,11 @@
 						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 33,
 					"file": "dst/routes/users.js",
 					"semi_transient": false,
 					"settings":
@@ -2017,11 +2464,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 34,
 					"file": "src/database/db.js",
 					"semi_transient": false,
 					"settings":
@@ -2061,24 +2508,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 35,
 					"file": "final.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 303,
+						"buffer_size": 363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								229
+								243,
+								243
 							]
 						],
 						"settings":
@@ -2099,23 +2546,23 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 38
+								"xpos": 52
 							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 36,
 					"file": "dst/routes/api.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 941,
+						"buffer_size": 2598,
 						"regions":
 						{
 						},
@@ -2153,11 +2600,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 37,
 					"file": "dst/database/db.js",
 					"semi_transient": false,
 					"settings":
@@ -2197,11 +2644,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 38,
 					"file": ".je-project-settings/project_settings.json",
 					"semi_transient": false,
 					"settings":
@@ -2213,8 +2660,8 @@
 						"selection":
 						[
 							[
-								385,
-								385
+								242,
+								242
 							]
 						],
 						"settings":
@@ -2242,7 +2689,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 22,
 					"type": "text"
 				}
 			]
@@ -2301,6 +2748,58 @@
 		"selected_items":
 		[
 			[
+				"api.js",
+				"src\\routes\\api.js"
+			],
+			[
+				"api",
+				"src\\routes\\api.js"
+			],
+			[
+				"authe",
+				"public\\javascripts\\controllers\\authenicationController.js"
+			],
+			[
+				"catalog.js",
+				"public\\javascripts\\controllers\\catalog.js"
+			],
+			[
+				"index",
+				"src\\routes\\index.js"
+			],
+			[
+				"catalo",
+				"public\\javascripts\\compiledTags\\catalog.js"
+			],
+			[
+				"cata",
+				"public\\javascripts\\controllers\\catalog.js"
+			],
+			[
+				"c",
+				"views\\catalog.pug"
+			],
+			[
+				"views",
+				"node_modules\\express\\lib\\view.js"
+			],
+			[
+				"catal",
+				"public\\javascripts\\controllers\\catalog.js"
+			],
+			[
+				"edit",
+				"public\\tags\\editProduct.tag"
+			],
+			[
+				".tag",
+				"public\\tags\\editProduct.tag"
+			],
+			[
+				"editP",
+				"public\\tags\\editProduct.tag"
+			],
+			[
 				"ser",
 				"server.js"
 			],
@@ -2349,11 +2848,11 @@
 	"settings":
 	{
 		"_vintageous_last_char_search_command": "vi_t",
-		"_vintageous_last_character_search": "m",
+		"_vintageous_last_character_search": ".",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "C:\\Users\\mick\\Documents\\Programming\\Homework\\nodeJS\\final\\views"
+			"_cmdline_cd": "C:\\Users\\mick\\Documents\\Programming\\Homework\\nodeJS\\final\\public\\tags"
 		}
 	},
 	"show_minimap": true,
