@@ -9,7 +9,7 @@ riot.tag2('catalog', '<div class="row"> <virtual each="{products}"> <product nam
 			console.log("token" + result.token);
 			$.ajax({
                 method: "GET",
-                url: 'api/products',
+                url: '/api/products',
                 dataType: 'json',
                 headers: {
 				    'x-access-token' : token

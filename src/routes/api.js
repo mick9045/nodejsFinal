@@ -5,6 +5,7 @@ var router = express.Router();
 var path = require('path');
 var config = require('../../appConfig.json');
 var ObjectId = require('mongodb').ObjectID;
+var fs = require('fs');
 
 const getDb = require('../database/db').getDb;
 var db = getDb('store');
@@ -202,16 +203,25 @@ router.route('/cart/:id')
 		res.json({success: true})
 	})
 
-router.route('/route/:id')
+router.route('/products/:id')
 	.delete(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
 		try
 		{
-			await carts.remove(
-				{_id: new ObjectId(req.decoded.cart)}
+			products.deleteOne(
+				{_id: new ObjectId(req.params.id)}
 			);
 			res.json({success: true});
 		} catch (e) {
+			console.log("failed to delete record");
 			res.json({success: false});
+		}
+	})
+	.put(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
+		try {
+			let product = products.findOne({_id: new ObjectId(req.id)})
+		}
+		catch {
+
 		}
 	})
 

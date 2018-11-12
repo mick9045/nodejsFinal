@@ -28,6 +28,7 @@
     </div>
     <script>
         var token;
+        var self = this;
 
         auth.getToken(function (result) {
             token = result.token;
@@ -35,16 +36,52 @@
 
         this.commit = function(e) {
             e.preventDefault();
+            if (opts.product_id) {
+                Put();
+            } else {
+                Post();
+            }
+        }
+
+        function Put() {
             var data = new FormData();
-            var imageProperty = this.refs.image.files[0];
-            data.append("name", this.refs.name.value);
-            data.append("price", this.refs.price.value);
-            data.append("defenition", this.refs.defenition.value);
+            var imageProperty = self.refs.image.files[0];
+            data.append("name", self.refs.name.value);
+            data.append("price", self.refs.price.value);
+            data.append("defenition", self.refs.defenition.value);
+            data.append("image", imageProperty);
+            data.append("id", self.opts.product_id);
+
+            $.ajax({
+                method: "PUT",
+                url: '/api/products',
+                data: data,
+                contentType: false,
+                cache: false,
+                processData: false,
+                headers: {
+                    'x-access-token' : token
+                }
+            }).done(function (result) {
+                if (result.success) {
+                    window.location.href = '/catalog';
+                }
+            }).fail(function (err) {
+                alert("failed to update the record");
+            });
+        }
+
+        function Post() {
+            var data = new FormData();
+            var imageProperty = self.refs.image.files[0];
+            data.append("name", self.refs.name.value);
+            data.append("price", self.refs.price.value);
+            data.append("defenition", self.refs.defenition.value);
             data.append("image", imageProperty);
 
             $.ajax({
                 method: "POST",
-                url: 'api/products',
+                url: '/api/products',
                 data: data,
                 contentType: false,
                 cache: false,

@@ -25,7 +25,7 @@ var OptsMixin = {
 			<div class="row">
 				<div class="btn-group shadow mx-auto" style="text-align: center" role="group" aria-label="Basic example">
 					<button class='btn btn-primary' onclick="{ buy }">Buy</button>
-					<button class='btn btn-warning'>Edit</button>
+					<button class='btn btn-warning' onclick="{ edit }">Edit</button>
 					<button class='btn btn-danger' onclick="{ delete }">Delete</button>
 				</div>
 			</div>
@@ -43,7 +43,7 @@ var OptsMixin = {
 			auth.getToken(function(result) {
 				$.ajax({
 	                method: "POST",
-	                url: 'api/cart',
+	                url: '/api/cart',
 	                data: {
 	                	productId: self.opts._id
 	                },
@@ -59,18 +59,22 @@ var OptsMixin = {
 				$.ajax(
 				{
 					method: "DELETE",
-					url: 'api/products/' + e.item._id,
+					url: '/api/products/' + e.item._id,
 					headers: {
 	                    'x-access-token' : result.token
 	                }
 	            }).done(function(result) {
 					var index = self.parent.products.findIndex(function (element) {
-						return element._id = e.item_id;
+						return element._id == e.item._id;
 					})
 					self.parent.products.splice(index, 1);
 					self.parent.update();
 				});
 			})
+		}
+
+		this.edit = function(e) {
+			window.location.href = 'edit/' + e.item._id;
 		}
 	</script>
 	

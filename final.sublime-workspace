@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"produ",
+				"productObjects"
+			],
+			[
 				"btn-e",
 				"btn-danger \tBootstrap 4 Class"
 			],
@@ -210,7 +214,7 @@
 			"file": "src/routes/api.js",
 			"settings":
 			{
-				"buffer_size": 2883,
+				"buffer_size": 5311,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -222,14 +226,6 @@
 				"buffer_size": 224,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/error.pug",
-			"settings":
-			{
-				"buffer_size": 84,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -245,8 +241,16 @@
 			"file": "src/routes/index.js",
 			"settings":
 			{
-				"buffer_size": 696,
+				"buffer_size": 871,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/pug/test/fixtures/append-without-block/page.pug",
+			"settings":
+			{
+				"buffer_size": 83,
 				"line_ending": "Unix"
 			}
 		},
@@ -306,7 +310,7 @@
 			"file": "public/javascripts/controllers/authenicationController.js",
 			"settings":
 			{
-				"buffer_size": 762,
+				"buffer_size": 792,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -333,7 +337,7 @@
 			"file": "views/page.pug",
 			"settings":
 			{
-				"buffer_size": 1793,
+				"buffer_size": 1716,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -342,9 +346,17 @@
 			"file": "views/addProduct.pug",
 			"settings":
 			{
-				"buffer_size": 126,
+				"buffer_size": 148,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/error.pug",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -360,7 +372,7 @@
 			"file": "public/tags/cart.tag",
 			"settings":
 			{
-				"buffer_size": 451,
+				"buffer_size": 1281,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -369,7 +381,7 @@
 			"file": "public/tags/catalog.tag",
 			"settings":
 			{
-				"buffer_size": 790,
+				"buffer_size": 799,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -386,7 +398,7 @@
 			"file": "public/tags/editProduct.tag",
 			"settings":
 			{
-				"buffer_size": 2630,
+				"buffer_size": 3760,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -395,7 +407,7 @@
 			"file": "public/javascripts/compiledTags/catalog.js",
 			"settings":
 			{
-				"buffer_size": 694,
+				"buffer_size": 702,
 				"line_ending": "Unix"
 			}
 		},
@@ -412,7 +424,7 @@
 			"file": "public/javascripts/compiledTags/product.js",
 			"settings":
 			{
-				"buffer_size": 1187,
+				"buffer_size": 2179,
 				"line_ending": "Unix"
 			}
 		},
@@ -420,7 +432,7 @@
 			"file": "public/tags/product.tag",
 			"settings":
 			{
-				"buffer_size": 1225,
+				"buffer_size": 2224,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -429,7 +441,7 @@
 			"file": "public/javascripts/compiledTags/editProduct.js",
 			"settings":
 			{
-				"buffer_size": 2254,
+				"buffer_size": 3384,
 				"line_ending": "Unix"
 			}
 		},
@@ -446,7 +458,7 @@
 			"file": "views/index.pug",
 			"settings":
 			{
-				"buffer_size": 49,
+				"buffer_size": 97,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -455,7 +467,7 @@
 			"file": "dst/routes/index.js",
 			"settings":
 			{
-				"buffer_size": 443,
+				"buffer_size": 559,
 				"line_ending": "Unix"
 			}
 		},
@@ -498,7 +510,7 @@
 			"file": "dst/routes/api.js",
 			"settings":
 			{
-				"buffer_size": 2598,
+				"buffer_size": 4798,
 				"line_ending": "Unix"
 			}
 		},
@@ -860,6 +872,7 @@
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/javascripts",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/javascripts/controllers",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/public/tags",
+		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/src",
 		"/C/Users/mick/Documents/Programming/Homework/nodeJS/final/views"
 	],
 	"file_history":
@@ -934,7 +947,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -948,6 +961,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fail",
+			"mongodb",
 			"config.jwt.secret",
 			"sign"
 		],
@@ -967,7 +982,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 24,
 			"sheets":
 			[
 				{
@@ -1015,7 +1030,7 @@
 						"translation.y": 1134.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
@@ -1058,7 +1073,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
@@ -1074,8 +1089,8 @@
 						"selection":
 						[
 							[
-								1324,
-								1324
+								1127,
+								1127
 							]
 						],
 						"settings":
@@ -1096,15 +1111,15 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 0
+								"xpos": 50
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -1113,15 +1128,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2883,
+						"buffer_size": 5311,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								511,
-								511
+								3067,
+								3067
 							]
 						],
 						"settings":
@@ -1149,10 +1164,10 @@
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 402.0,
+						"translation.y": 1402.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1168,7 +1183,7 @@
 						"selection":
 						[
 							[
-								224,
+								18,
 								18
 							]
 						],
@@ -1180,52 +1195,11 @@
 								"_vintageous_glue_until_normal_mode": false,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_visual",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "views/error.pug",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 84,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
 								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
+								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
@@ -1236,11 +1210,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "src/routes/users.js",
 					"semi_transient": false,
 					"settings":
@@ -1278,24 +1252,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "src/routes/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 696,
+						"buffer_size": 871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								668,
-								668
+								812,
+								812
 							]
 						],
 						"settings":
@@ -1303,10 +1277,10 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"vintage":
 							{
-								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_glue_until_normal_mode": false,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_insert",
+								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
@@ -1314,7 +1288,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 16
+								"xpos": 4
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1322,7 +1296,48 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "node_modules/pug/test/fixtures/append-without-block/page.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -1367,7 +1382,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -1412,7 +1427,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -1456,7 +1471,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -1501,7 +1516,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -1545,7 +1560,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -1573,7 +1588,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -1582,15 +1597,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 762,
+						"buffer_size": 792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								538,
-								538
+								396,
+								396
 							]
 						],
 						"settings":
@@ -1600,12 +1615,12 @@
 							"translate_tabs_to_spaces": false,
 							"vintage":
 							{
-								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_glue_until_normal_mode": true,
 								"_vintageous_non_interactive": false,
 								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_normal",
+								"mode": "mode_insert",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
@@ -1613,7 +1628,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 20
+								"xpos": 35
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1621,7 +1636,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
@@ -1662,7 +1677,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -1709,7 +1724,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1718,15 +1733,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1793,
+						"buffer_size": 1716,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1790,
-								1790
+								1666,
+								1666
 							]
 						],
 						"settings":
@@ -1750,7 +1765,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 34
+								"xpos": 19
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1758,7 +1773,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1767,58 +1782,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 126,
+						"buffer_size": 148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "views/cart.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
+								135,
+								135
 							]
 						],
 						"settings":
@@ -1837,36 +1809,78 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 8
-							}
+								"xpos": 23
+							},
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "public/tags/cart.tag",
-					"semi_transient": false,
+					"buffer": 19,
+					"file": "views/error.pug",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 451,
+						"buffer_size": 84,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								450,
-								450
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Riot Tag/syntax/TAG.tmLanguage",
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "views/cart.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
@@ -1880,7 +1894,53 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 6
+								"xpos": 12
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "public/tags/cart.tag",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/Riot Tag/syntax/TAG.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 33
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1888,24 +1948,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "public/tags/catalog.tag",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								659,
+								659
 							]
 						],
 						"settings":
@@ -1927,7 +1987,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 28
+								"xpos": 13
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
@@ -1935,11 +1995,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "node_modules/express/lib/view.js",
 					"semi_transient": false,
 					"settings":
@@ -1978,24 +2038,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "public/tags/editProduct.tag",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2630,
+						"buffer_size": 3760,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1509,
-								1509
+								2344,
+								2344
 							]
 						],
 						"settings":
@@ -2005,12 +2065,12 @@
 							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
-								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_glue_until_normal_mode": true,
 								"_vintageous_non_interactive": false,
 								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_normal",
+								"mode": "mode_insert",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
@@ -2018,24 +2078,24 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 17
+								"xpos": 33
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 738.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "public/javascripts/compiledTags/catalog.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 694,
+						"buffer_size": 702,
 						"regions":
 						{
 						},
@@ -2069,11 +2129,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "/C/Users/mick/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -2112,16 +2172,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "public/javascripts/compiledTags/product.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1187,
+						"buffer_size": 2179,
 						"regions":
 						{
 						},
@@ -2154,24 +2214,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "public/tags/product.tag",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1225,
+						"buffer_size": 2224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1212,
-								1212
+								2156,
+								2156
 							]
 						],
 						"settings":
@@ -2182,6 +2242,8 @@
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
 								"mode": "mode_normal",
@@ -2192,24 +2254,24 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 36
+								"xpos": 17
 							},
 							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "public/javascripts/compiledTags/editProduct.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2254,
+						"buffer_size": 3384,
 						"regions":
 						{
 						},
@@ -2245,11 +2307,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "public/stylesheets/style.css",
 					"semi_transient": false,
 					"settings":
@@ -2290,24 +2352,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "views/index.pug",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 49,
+						"buffer_size": 97,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								97,
+								97
 							]
 						],
 						"settings":
@@ -2336,16 +2398,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "dst/routes/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 443,
+						"buffer_size": 559,
 						"regions":
 						{
 						},
@@ -2380,11 +2442,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "/C/Users/mick/Desktop/result.json",
 					"semi_transient": false,
 					"settings":
@@ -2423,11 +2485,11 @@
 						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "dst/routes/users.js",
 					"semi_transient": false,
 					"settings":
@@ -2464,11 +2526,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
 					"file": "src/database/db.js",
 					"semi_transient": false,
 					"settings":
@@ -2508,11 +2570,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 36,
 					"file": "final.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -2553,16 +2615,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 37,
 					"file": "dst/routes/api.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2598,
+						"buffer_size": 4798,
 						"regions":
 						{
 						},
@@ -2600,11 +2662,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 38,
 					"file": "dst/database/db.js",
 					"semi_transient": false,
 					"settings":
@@ -2644,11 +2706,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 39,
 					"file": ".je-project-settings/project_settings.json",
 					"semi_transient": false,
 					"settings":
@@ -2689,7 +2751,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 24,
 					"type": "text"
 				}
 			]
@@ -2748,12 +2810,60 @@
 		"selected_items":
 		[
 			[
+				"index.js",
+				"src\\routes\\index.js"
+			],
+			[
+				"index",
+				"views\\index.pug"
+			],
+			[
+				"add",
+				"views\\addProduct.pug"
+			],
+			[
+				"edit",
+				"public\\tags\\editProduct.tag"
+			],
+			[
+				"inde",
+				"src\\routes\\index.js"
+			],
+			[
+				"prod",
+				"public\\tags\\product.tag"
+			],
+			[
 				"api.js",
 				"src\\routes\\api.js"
 			],
 			[
+				"produ",
+				"public\\tags\\product.tag"
+			],
+			[
+				"catal",
+				"public\\javascripts\\controllers\\catalog.js"
+			],
+			[
+				"prdu",
+				"public\\tags\\product.tag"
+			],
+			[
 				"api",
 				"src\\routes\\api.js"
+			],
+			[
+				"page.",
+				"node_modules\\pug\\test\\fixtures\\append-without-block\\page.pug"
+			],
+			[
+				"Inde",
+				"src\\routes\\index.js"
+			],
+			[
+				"index.pu",
+				"views\\index.pug"
 			],
 			[
 				"authe",
@@ -2762,10 +2872,6 @@
 			[
 				"catalog.js",
 				"public\\javascripts\\controllers\\catalog.js"
-			],
-			[
-				"index",
-				"src\\routes\\index.js"
 			],
 			[
 				"catalo",
@@ -2782,14 +2888,6 @@
 			[
 				"views",
 				"node_modules\\express\\lib\\view.js"
-			],
-			[
-				"catal",
-				"public\\javascripts\\controllers\\catalog.js"
-			],
-			[
-				"edit",
-				"public\\tags\\editProduct.tag"
 			],
 			[
 				".tag",
@@ -2848,7 +2946,7 @@
 	"settings":
 	{
 		"_vintageous_last_char_search_command": "vi_t",
-		"_vintageous_last_character_search": ".",
+		"_vintageous_last_character_search": ";",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{

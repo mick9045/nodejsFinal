@@ -18,5 +18,11 @@ router.get('/cart', function(req, res, next) {
 	res.render('cart');
 });
 
+router.get('/edit/:id', function(req, res, next) {
+	res.render('addProduct', {
+		productId: req.params.id
+	});
+});
+
 
 module.exports = router;

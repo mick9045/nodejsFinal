@@ -15,7 +15,7 @@
 			console.log("token" + result.token);
 			$.ajax({
                 method: "GET",
-                url: 'api/products',
+                url: '/api/products',
                 dataType: 'json',
                 headers: {
 				    'x-access-token' : token

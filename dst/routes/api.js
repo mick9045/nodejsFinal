@@ -202,12 +202,12 @@ router.route('/cart/:id')
 		res.json({success: true})
 	})
 
-router.route('/route/:id')
+router.route('/products/:id')
 	.delete(async function(req, res, next) {
 		try
 		{
-			await carts.remove(
-				{_id: new ObjectId(req.decoded.cart)}
+			products.deleteOne(
+				{_id: new ObjectId(req.params.id)}
 			);
 			res.json({success: true});
 		} catch (e) {

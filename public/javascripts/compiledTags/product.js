@@ -18,7 +18,7 @@ var OptsMixin = {
 			}
 		}
 
-riot.tag2('product', '<div class="card shadow-lg"> <img class="card-img-top" riot-src="{opts.image}" alt="Card Image"> <div class="card-body"> <div class="row"> <div class="btn-group shadow mx-auto" style="text-align: center" role="group" aria-label="Basic example"> <button class="btn btn-primary" onclick="{buy}">Buy</button> <button class="btn btn-warning">Edit</button> <button class="btn btn-danger" onclick="{delete}">Delete</button> </div> </div> <h4 class="card-title">{opts.name}</h4> <p class="card-text">{opts.defenition}</p> <h1 style="font-size: 2rem" class="badge badge-warning">{\'$ \' + opts.price}</h1> </div> </div>', '', 'class="col-sm-6 col-lg-4 col-12 my-2"', function(opts) {
+riot.tag2('product', '<div class="card shadow-lg"> <img class="card-img-top" riot-src="{opts.image}" alt="Card Image"> <div class="card-body"> <div class="row"> <div class="btn-group shadow mx-auto" style="text-align: center" role="group" aria-label="Basic example"> <button class="btn btn-primary" onclick="{buy}">Buy</button> <button class="btn btn-warning" onclick="{edit}">Edit</button> <button class="btn btn-danger" onclick="{delete}">Delete</button> </div> </div> <h4 class="card-title">{opts.name}</h4> <p class="card-text">{opts.defenition}</p> <h1 style="font-size: 2rem" class="badge badge-warning">{\'$ \' + opts.price}</h1> </div> </div>', '', 'class="col-sm-6 col-lg-4 col-12 my-2"', function(opts) {
 		this.mixin(OptsMixin);
 		var self = this;
 
@@ -26,7 +26,7 @@ riot.tag2('product', '<div class="card shadow-lg"> <img class="card-img-top" rio
 			auth.getToken(function(result) {
 				$.ajax({
 	                method: "POST",
-	                url: 'api/cart',
+	                url: '/api/cart',
 	                data: {
 	                	productId: self.opts._id
 	                },
@@ -42,17 +42,21 @@ riot.tag2('product', '<div class="card shadow-lg"> <img class="card-img-top" rio
 				$.ajax(
 				{
 					method: "DELETE",
-					url: 'api/products/' + e.item._id,
+					url: '/api/products/' + e.item._id,
 					headers: {
 	                    'x-access-token' : result.token
 	                }
 	            }).done(function(result) {
 					var index = self.parent.products.findIndex(function (element) {
-						return element._id = e.item_id;
+						return element._id == e.item._id;
 					})
 					self.parent.products.splice(index, 1);
 					self.parent.update();
 				});
 			})
+		}
+
+		this.edit = function(e) {
+			window.location.href = 'edit/' + e.item._id;
 		}
 });
