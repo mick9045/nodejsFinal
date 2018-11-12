@@ -106,6 +106,37 @@ router.route('/products')
 	.get(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
 		res.json(await products.find({}).toArray());
 	})
+	.put(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
+		try {
+			let product = await products.findOne({_id: new ObjectId(req.body.id)});
+			/*
+			fs.stat(product.image, function(error, stat) {
+				fs.unlinkSync(product.image);
+			})
+			*/
+			let image = req.files.image;
+			let imagePath = 'images/' + uniqueFileName('') + path.extname(image.name);
+			image.mv('public/' + imagePath, function(err) {
+				console.log("can't move image: " + err);
+			});
+			products.updateOne(
+				{_id: new ObjectId(req.body.id)},
+				{
+					$set: {
+						name: req.body.name,
+						price: req.body.price,
+						defenition: req.body.defenition,
+						image: imagePath
+					}
+				}
+				);
+			res.json({success: true});
+		}
+		catch (e) {
+			console.log(e);
+			res.json({success: false});
+		}
+	})
 
 router.route('/cart')
 	.get(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
@@ -203,6 +234,7 @@ router.route('/cart/:id')
 		res.json({success: true})
 	})
 
+
 router.route('/products/:id')
 	.delete(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
 		try
@@ -216,14 +248,10 @@ router.route('/products/:id')
 			res.json({success: false});
 		}
 	})
-	.put(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
-		try {
-			let product = products.findOne({_id: new ObjectId(req.id)})
-		}
-		catch {
-
-		}
+	.get(async function(req: express$Request, res: express$Response, next: express$NextFunction) {
+		res.json(await products.findOne(
+			{_id: new ObjectId(req.params.id)}	
+		));
 	})
-
 
 module.exports = router;
